@@ -7,6 +7,8 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Chrome()
 driver.get("https://www.amazon.in/")
 driver.maximize_window()
+print("abc")
+print("xyz")
 driver.find_element(By.LINK_TEXT, "Today's Deals").click()
 #driver.find_element(By.XPATH, "//a[@href='/deals?ref_=nav_cs_gb'']").click()
 #driver.find_element(By.LINK_TEXT, "Mobiles").click()
